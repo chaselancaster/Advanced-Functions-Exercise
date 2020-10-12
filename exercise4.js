@@ -9,6 +9,8 @@ const addTo = x => y => x + y
 var addToTen = addTo(10)
 addToTen(3)
 
+// Answer: 13
+
 //Currying: What does the last line return?
 const sum = (a, b) => a + b
 const curriedSum = (a) => (b) => a + b
