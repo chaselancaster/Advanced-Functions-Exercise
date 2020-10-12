@@ -16,6 +16,7 @@ const sum = (a, b) => a + b
 const curriedSum = (a) => (b) => a + b
 curriedSum(30)(1)
 
+// Answer: 31
 
 //Currying: What does the last line return?
 const sum = (a, b) => a + b
