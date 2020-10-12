@@ -24,6 +24,8 @@ const curriedSum = (a) => (b) => a + b
 const add5 = curriedSum(5)
 add5(12)
 
+// Answer: 17
+
 //Composing: What does the last line return?
 const compose = (f, g) => (a) => f(g(a));
 const add1 = (num) => num + 1;
